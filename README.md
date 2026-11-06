@@ -29,7 +29,7 @@ Nesta atividade, foram analisados dados dos municípios do estado de são paulo 
 
 Após finalizar o trabalho com os dados da ANTT no Excel, passei a utilizar essa mesma base no Power BI. Durante essa atividade, comecei a explorar novas formas de apresentar os dados, utilizando gráficos e recursos interativos para facilitar a visualização das informações. Também pude conhecer melhor o processo de criação e organização de relatórios na plataforma. Essa etapa foi importante para perceber as diferenças entre o Excel e o Power BI. Enquanto o Excel permite organizar e analisar os dados de forma prática, o Power BI oferece mais recursos para criar visualizações dinâmicas e interativas, tornando a interpretação dos resultados mais simples e eficiente.
 
-# Elaboração de gráficos no Power BI com os dados dos municipios de São Paulo
+# Elaboração de gráficos no Power BI com os dados dos municípios de São Paulo
 
 <img width="1314" height="743" alt="image" src="https://github.com/user-attachments/assets/ca6b93cf-97f9-4c4c-869d-1a007bbd420c" />
 
