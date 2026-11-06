@@ -17,13 +17,13 @@ A realização dessa atividade também contribuiu para meu aprendizado sobre tra
 
 Esse trabalho serviu como uma experiência inicial na área de análise de dados e ajudou a desenvolver conhecimentos que poderão ser utilizados nas próximas atividades, principalmente na criação de análises mais completas e na utilização de ferramentas como o Power BI.
 
-# Graficos e perguntas com os dados abertos de São Paulo
+# Gráficos e perguntas com os dados abertos de São Paulo
 
 <img width="1305" height="598" alt="image" src="https://github.com/user-attachments/assets/814be2ce-b102-489d-b40f-dedb7d97da90" />
 
 Nesta atividade, foram analisados dados dos municípios do estado de são paulo para criar perguntas e comparações que podem ser reproduzidas no power bi. a proposta foi organizar as informações em diferentes análises, utilizando quantidade de municípios, regiões, drs e área territorial.
 
-# Elaboração de graficos no Power BI com dados da ANTT
+# Elaboração de gráficos no Power BI com dados da ANTT
 
 <img width="1162" height="734" alt="image" src="https://github.com/user-attachments/assets/81a78eac-7da1-48e2-901e-fb580331a2e1" />
 
