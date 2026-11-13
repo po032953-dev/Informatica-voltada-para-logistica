@@ -37,3 +37,23 @@ Na última atividade, eu utilizei a base de dados dos municipios de São Paulo ,
 Diferente da atividade que eu tinha feito antes no Excel, nessa etapa eu criei os gráficos primeiro e, a partir deles, fui elaborando perguntas que poderiam ser respondidas com as informações apresentadas.
 Essa atividade foi importante porque reuniu várias coisas que eu já tinha aprendido nas atividades anteriores, como análise de dados, criação de perguntas, utilização de gráficos e interpretação das informações.
 No final, consegui perceber melhor a evolução entre trabalhar com uma planilha simples no Excel e depois transformar esses mesmos dados em gráficos e relatórios mais interativos no Power BI.
+
+
+# Atividade - Regressão Linear Simples
+
+## Nupcialidade
+
+Análise da relação entre a idade média dos homens e das mulheres ao casar.
+
+- Variável X: Idade média dos homens.
+- Variável Y: Idade média das mulheres.
+- R²: 0,9384.
+- Equação: y = 1,0284x - 3,6951.
+
+## Gráfico de dispersão
+
+![Gráfico de regressão](grafico_regressao_nupcialidade.png)
+
+## Conclusão
+
+O modelo de regressão linear se aplica ao caso, pois o R² é próximo de 1, indicando forte relação linear positiva entre as variáveis.
