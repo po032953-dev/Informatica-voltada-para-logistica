@@ -52,7 +52,7 @@ Análise da relação entre a idade média dos homens e das mulheres ao casar.
 
 ## Gráfico de dispersão
 
-![Gráfico de regressão](grafico_regressao_nupcialidade.png)
+(grafico_regressao_nupcialidade.png)
 
 ## Conclusão
 
