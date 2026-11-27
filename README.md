@@ -59,11 +59,16 @@ Análise da relação entre a idade média dos homens e das mulheres ao casar.
 
 O modelo de regressão linear se aplica ao caso, pois o R² é próximo de 1, indicando forte relação linear positiva entre as variáveis.
 
+## Montagem de 3 visualizadores no Power BI
+Neste trabalho desenvolvi um visualizador no Power BI utilizando dados sobre expectativa de vida:
+
+<img width="1309" height="677" alt="image" src="https://github.com/user-attachments/assets/5226b25f-57a6-4ede-9f4a-62910055c7a1" />
+
+
 ## Regressão Linear Ice Cream
 Trabalho de regressão linear que relaciona a venda de sorvete com a temperatura.
 
 <img width="781" height="552" alt="image" src="https://github.com/user-attachments/assets/9116e97c-0291-4c34-aafb-96d5e1b66a4e" />
-
 
 
 ## Regressão linear
