@@ -70,6 +70,10 @@ Trabalho de regressão linear que relaciona a venda de sorvete com a temperatura
 
 <img width="781" height="552" alt="image" src="https://github.com/user-attachments/assets/9116e97c-0291-4c34-aafb-96d5e1b66a4e" />
 
+## Excel do Ice cream
+
+<img width="937" height="594" alt="image" src="https://github.com/user-attachments/assets/693a3337-5cab-4728-b20d-6e76183fcafc" />
+
 
 ## Regressão linear
 Neste trabalho, fizemos um estudo, para que fosse identificado dados que relacionassem horas de estudo, com resultados em provas e testes.
