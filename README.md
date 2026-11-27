@@ -197,7 +197,7 @@ Ao utilizar o google colab, pude montar um modelo de regressão linear.
   ]
 }
 
-Nesta imagem podemos visualizar o gráfico com a relação dos dados e os resultados apresentados.
+## Nesta imagem podemos visualizar o gráfico com a relação dos dados e os resultados apresentados:
 
 <img width="1073" height="378" alt="image" src="https://github.com/user-attachments/assets/a761cc6d-3983-4283-ac18-9278df302f40" />
 
