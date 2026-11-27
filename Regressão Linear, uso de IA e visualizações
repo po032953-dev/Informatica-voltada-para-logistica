@@ -1,3 +1,7 @@
+## Regressão linear
+Neste trabalho, fizemos um estudo, para que fosse identificado dados que relacionassem horas de estudo, com resultados em provas e testes.
+Ao utilizar o google colab, pude montar um modelo de regressão linear.
+
 {
   "nbformat": 4,
   "nbformat_minor": 0,
@@ -372,3 +376,4 @@
     }
   ]
 }
+       
