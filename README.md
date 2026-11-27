@@ -59,6 +59,13 @@ Análise da relação entre a idade média dos homens e das mulheres ao casar.
 
 O modelo de regressão linear se aplica ao caso, pois o R² é próximo de 1, indicando forte relação linear positiva entre as variáveis.
 
+## Regressão Linear Ice Cream
+Trabalho de regressão linear que relaciona a venda de sorvete com a temperatura.
+
+<img width="781" height="552" alt="image" src="https://github.com/user-attachments/assets/9116e97c-0291-4c34-aafb-96d5e1b66a4e" />
+
+
+
 ## Regressão linear
 Neste trabalho, fizemos um estudo, para que fosse identificado dados que relacionassem horas de estudo, com resultados em provas e testes.
 Ao utilizar o google colab, pude montar um modelo de regressão linear.
