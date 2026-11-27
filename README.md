@@ -58,3 +58,149 @@ Análise da relação entre a idade média dos homens e das mulheres ao casar.
 ## Conclusão
 
 O modelo de regressão linear se aplica ao caso, pois o R² é próximo de 1, indicando forte relação linear positiva entre as variáveis.
+
+## Regressão linear
+Neste trabalho, fizemos um estudo, para que fosse identificado dados que relacionassem horas de estudo, com resultados em provas e testes.
+Ao utilizar o google colab, pude montar um modelo de regressão linear.
+
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "RESULTADOS DA REGRESSÃO LINEAR\n",
+            "Coeficiente angular: 0.7967\n",
+            "Intercepto: 1.9327\n",
+            "\n",
+            "Equação da reta:\n",
+            "Nota = 1.9327 + 0.7967 × Horas de estudo\n",
+            "\n",
+            "R² = 0.9964\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 900x600 with 1 Axes>"
+            ],
+           
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "CONCLUSÃO\n",
+            "Sim! Mais horas de estudo estão associadas a notas maiores.\n",
+            "O valor de R² é 0.9964, indicando um ajuste muito forte.\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "# ============================================\n",
+        "# ATIVIDADE: REGRESSÃO LINEAR\n",
+        "# HORAS DE ESTUDO X NOTA DA PROVA\n",
+        "# ============================================\n",
+        "\n",
+        "# 1. Importar bibliotecas\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "from sklearn.linear_model import LinearRegression\n",
+        "from sklearn.metrics import r2_score\n",
+        "\n",
+        "# 2. Criar a base de dados\n",
+        "dados = {\n",
+        "    'Horas de estudo': [1, 2, 2.5, 3, 4, 4.5,\n",
+        "                        5, 6, 6.5, 7, 8, 9],\n",
+        "\n",
+        "    'Nota da prova': [2.8, 3.5, 4.0, 4.2, 5.0, 5.7,\n",
+        "                      6.0, 6.6, 7.1, 7.3, 8.4, 9.2]\n",
+        "}\n",
+        "\n",
+        "df = pd.DataFrame(dados)\n",
+        "\n",
+        "# 3. Mostrar a tabela\n",
+        "print(\"BASE DE DADOS\")\n",
+        "display(df)\n",
+        "\n",
+        "# 4. Separar as variáveis X e Y\n",
+        "X = df[['Horas de estudo']]\n",
+        "y = df['Nota da prova']\n",
+        "\n",
+        "# 5. Criar e treinar o modelo\n",
+        "modelo = LinearRegression()\n",
+        "modelo.fit(X, y)\n",
+        "\n",
+        "# 6. Realizar previsões\n",
+        "previsoes = modelo.predict(X)\n",
+        "\n",
+        "# 7. Calcular o R²\n",
+        "r2 = r2_score(y, previsoes)\n",
+        "\n",
+        "# 8. Mostrar os resultados\n",
+        "print(\"\\nRESULTADOS DA REGRESSÃO LINEAR\")\n",
+        "\n",
+        "print(f\"Coeficiente angular: {modelo.coef_[0]:.4f}\")\n",
+        "print(f\"Intercepto: {modelo.intercept_:.4f}\")\n",
+        "\n",
+        "print(f\"\\nEquação da reta:\")\n",
+        "print(f\"Nota = {modelo.intercept_:.4f} + {modelo.coef_[0]:.4f} × Horas de estudo\")\n",
+        "\n",
+        "print(f\"\\nR² = {r2:.4f}\")\n",
+        "\n",
+        "# 9. Criar gráfico de dispersão\n",
+        "plt.figure(figsize=(9, 6))\n",
+        "\n",
+        "plt.scatter(\n",
+        "    X['Horas de estudo'],\n",
+        "    y,\n",
+        "    color='blue',\n",
+        "    label='Notas dos alunos',\n",
+        "    s=70\n",
+        ")\n",
+        "\n",
+        "# Adicionar a reta de regressão\n",
+        "plt.plot(\n",
+        "    X['Horas de estudo'],\n",
+        "    previsoes,\n",
+        "    color='red',\n",
+        "    label='Linha de regressão'\n",
+        ")\n",
+        "\n",
+        "plt.title('Regressão Linear: Horas de Estudo x Nota da Prova')\n",
+        "plt.xlabel('Horas de estudo')\n",
+        "plt.ylabel('Nota da prova')\n",
+        "plt.legend()\n",
+        "plt.grid(True)\n",
+        "\n",
+        "plt.show()\n",
+        "\n",
+        "# 10. Conclusão\n",
+        "print(\"\\nCONCLUSÃO\")\n",
+        "\n",
+        "if modelo.coef_[0] > 0:\n",
+        "    print(\"Sim! Mais horas de estudo estão associadas a notas maiores.\")\n",
+        "else:\n",
+        "    print(\"Não! Não foi encontrada uma associação positiva.\")\n",
+        "\n",
+        "print(f\"O valor de R² é {r2:.4f}, indicando um ajuste muito forte.\")\n"
+      ]
+    }
+  ]
+}
+
+Nesta imagem podemos visualizar o gráfico com a relação dos dados e os resultados apresentados.
+
+<img width="1073" height="378" alt="image" src="https://github.com/user-attachments/assets/a761cc6d-3983-4283-ac18-9278df302f40" />
+
+## Conclusão
+Sim, Mais horas de estudo estão associadas a notas maiores.
+O valor de R² é 0.9964, indicando um ajuste muito forte.
